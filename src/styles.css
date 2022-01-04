@@ -11,6 +11,13 @@ body {
     scroll-behavior: smooth;
 }
 
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+}
+
 h1 {
     padding: 2rem 0;
     font-size: 2rem;
