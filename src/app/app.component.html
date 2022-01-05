@@ -11,10 +11,19 @@
 
 <body>
     <div class="container">
+        <app-header></app-header>
         <div class="wrap-cont">
-            <app-header></app-header>
-            <!-- btn to add quote input field -->
-            <app-button color="green" text="add quote" (addQuote)="newQuote()"></app-button>
+            <div class="row">
+                <!-- post quote  -->
+                <div class="col-md-6">
+                    <app-form></app-form>
+                    <app-button color="green" text="add quote" (addQuote)="newQuote()"></app-button>
+                </div>
+                <!-- posted quotes  -->
+                <div class="col-md-6">
+
+                </div>
+            </div>
         </div>
         <form action=""></form>
     </div>
