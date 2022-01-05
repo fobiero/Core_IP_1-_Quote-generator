@@ -18,17 +18,8 @@ body {
     min-height: 300px;
 }
 
-h1 {
-    padding: 2rem 0;
-    font-size: 2rem;
-    font-weight: 400;
-    letter-spacing: .2rem;
-}
-
 .wrap-cont {
-    align-items: center;
-    text-align: center;
     padding: 2rem;
     border: 1px solid #eee;
-    margin: 4rem 0;
+    /* margin: 4rem 0; */
 }
