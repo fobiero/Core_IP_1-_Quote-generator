@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+  // cutom button 
+  newQuote(){
+    console.log('Added new Quote to the List');
+  }
 }
