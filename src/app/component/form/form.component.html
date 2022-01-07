@@ -1,15 +1,16 @@
 <form>
-    <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Author:</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div class="mb-3 form-group">
+        <label for="author" class="form-label">Author:</label>
+        <input ngModel name="author" #authorName="ngModel" (change)="log(authorName)" type="text" class="form-control" id="author" required>
+        <div class="alert alert-danger" *ngIf="!author.valid">Author is Required</div>
     </div>
-    <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">PostBY:</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
+    <div class="mb-3 form-group">
+        <label for="postBy" class="form-label">PostBY:</label>
+        <input ngModel name="postBy" type="text" class="form-control" id="postBy">
     </div>
-    <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">PostBY:</label>
-        <textarea type="password" class="form-control" id="exampleInputPassword1"></textarea>
+    <div class="mb-3 form-group">
+        <label for="quote" class="form-label">Quote:</label>
+        <textarea ngModel name="quote" type="text" class="form-control" id="quote"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Add Quote</button>
 </form>
