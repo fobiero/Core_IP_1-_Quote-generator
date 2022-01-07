@@ -1,16 +1,18 @@
-<form>
+<form #forms="ngForm">
     <div class="mb-3 form-group">
         <label for="author" class="form-label">Author:</label>
-        <input ngModel name="author" #authorName="ngModel" (change)="log(authorName)" type="text" class="form-control" id="author" required>
-        <div class="alert alert-danger" *ngIf="!author.valid">Author is Required</div>
+        <input [(ngModel)]="authorName" type="text" name="author" class="form-control" id="author">
     </div>
     <div class="mb-3 form-group">
         <label for="postBy" class="form-label">PostBY:</label>
-        <input ngModel name="postBy" type="text" class="form-control" id="postBy">
+        <input [(ngModel)]="postByName" type="text" name="postBy" class="form-control" id="postBy">
     </div>
     <div class="mb-3 form-group">
         <label for="quote" class="form-label">Quote:</label>
-        <textarea ngModel name="quote" type="text" class="form-control" id="quote"></textarea>
+        <textarea [(ngModel)]="quoteName" type="text" name="quote" class="form-control" id="quote"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Add Quote</button>
+    <button type="submit" (click)="addQuote()" class="btn btn-primary">Add Quote</button>
 </form>
+
+<!-- <app-quotes [quotes]="Quotes"></app-quotes> -->
+<app-quotes [quotes]="Quotes"></app-quotes>

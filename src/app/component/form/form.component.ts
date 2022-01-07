@@ -1,13 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-import { NgModule }      from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'; 
 
 @Component({
-  selector: 'form',
+  selector: 'app-form',
   templateUrl: './form.component.html',
   styleUrls: ['./form.component.css']
 })
 export class FormComponent {
-  log(x: any) {console.log(x);}
+
+  authorName: any = "";
+  postByName:any = "";
+  quoteName: any = "";
+  Quotes: any = [];
+
+  addQuote() {
+    this.Quotes.push({name:this.authorName,post:this.postByName,quote:this.quoteName});
+  }
+
 }

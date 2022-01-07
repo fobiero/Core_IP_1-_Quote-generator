@@ -1,1 +1,16 @@
-<app-quote-item *ngFor="let quote of quotes " [quote]="quote"></app-quote-item>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Author</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let quote of quotes">
+            <th scope="row">{{quotes.name}}</th>
+            <td colspan="2">{{quotes.post}}</td>
+            <td>{{quotes.quote}}</td>
+        </tr>
+    </tbody>
+</table>
