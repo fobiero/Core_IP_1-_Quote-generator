@@ -4,9 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
-// import { ButtonComponent } from './component/button/button.component';
 import { FormComponent } from './component/form/form.component';
-// import { QuoteItemComponent } from './component/quote-item/quote-item.component';
 import { QuotesComponent } from './component/quotes/quotes.component';
 import { FormsModule } from '@angular/forms';
 
@@ -15,9 +13,7 @@ import { FormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     HeaderComponent,
-    // ButtonComponent,
     FormComponent,
-    // QuoteItemComponent,
     QuotesComponent
   ],
   imports: [
