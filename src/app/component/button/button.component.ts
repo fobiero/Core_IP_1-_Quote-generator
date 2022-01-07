@@ -1,4 +1,5 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
+// import { EventEmitter } from 'stream';
 
 @Component({
   selector: 'app-button',
@@ -9,14 +10,13 @@ export class ButtonComponent implements OnInit {
   @Input() text!: string;
   @Input() color!: string;
   @Output() addQuote = new EventEmitter();
-
+  
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  onClick() {
-    this.addQuote.emit();
+  onClick(){
+    this.addQuote.emit()
   }
-
 }

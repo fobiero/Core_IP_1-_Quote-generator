@@ -7,6 +7,7 @@ import { HeaderComponent } from './component/header/header.component';
 import { ButtonComponent } from './component/button/button.component';
 import { FormComponent } from './component/form/form.component';
 import { QuoteItemComponent } from './component/quote-item/quote-item.component';
+import { QuotesComponent } from './component/quotes/quotes.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { QuoteItemComponent } from './component/quote-item/quote-item.component'
     HeaderComponent,
     ButtonComponent,
     FormComponent,
-    QuoteItemComponent
+    QuoteItemComponent,
+    QuotesComponent
   ],
   imports: [
     BrowserModule,

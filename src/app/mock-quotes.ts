@@ -1,6 +1,6 @@
 import {Quote} from "./Quote";
 
-export const Quotes: Quote[] = [
+export const QUOTES: Quote[] = [
     {
         id: 1,
         author: 'John Doe', 
