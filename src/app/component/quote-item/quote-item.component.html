@@ -1,0 +1,53 @@
+<nav class="navbar nabar-light bg-primary">
+    <div class="container">
+        <h1 class="main-head">Quote generator</h1>
+        <div class="d-flex">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn-quote">Add Quote</button>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Author</th>
+                <th scope="col">Posted By</th>
+                <th scope="col">Quote</th>
+                <!-- <th scope="col">Date Posted</th> -->
+                <th scope="col">Delete Quote</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>Smith Martins</td>
+                <td>Making it look real is amazing</td>
+                <!-- <td>12/04/1997</td>     -->
+                <td style="padding-left:2rem;"><button class="dlt-quote">X</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- end container  -->
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>

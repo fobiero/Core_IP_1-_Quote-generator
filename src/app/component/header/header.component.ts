@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  title: string  = 'Quote Generator'
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  toggleAddQuote() {
+    console.log('Quote addedd successfuly');
+  }
 }
