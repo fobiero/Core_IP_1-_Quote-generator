@@ -7,8 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  title: string = 'Quote Generator';
-
   constructor() { }
 
   ngOnInit(): void {
