@@ -7,15 +7,17 @@ import { HeaderComponent } from './component/header/header.component';
 import { FormComponent } from './component/form/form.component';
 import { QuotesComponent } from './component/quotes/quotes.component';
 import { FormsModule } from '@angular/forms';
-
+import { CounterComponent } from './component/counter/counter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FormComponent,
-    QuotesComponent
+    QuotesComponent,
+    CounterComponent
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,

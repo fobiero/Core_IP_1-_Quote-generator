@@ -1,0 +1,16 @@
+.vokes {
+    /* display: block; */
+    align-items: center;
+}
+
+.vokes i {
+    line-height: 1rem;
+    width: 40px;
+    font-size: 2rem;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+}
