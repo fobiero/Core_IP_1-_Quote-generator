@@ -6,13 +6,13 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./quotes.component.css']
 })
 export class QuotesComponent implements OnInit {
-
+  date = new Date();
+  
   @Input() quotes:any;
 
   constructor() { }
 
   ngOnInit(): void {
-    
-  }
 
+  }
 }

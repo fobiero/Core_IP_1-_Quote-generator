@@ -1,0 +1,9 @@
+.hd-list {
+    font-weight: 300;
+    margin: 3rem 0;
+}
+
+.formData {
+    display: flex;
+    justify-content: space-between;
+}
