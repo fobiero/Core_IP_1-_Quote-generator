@@ -1,6 +1,5 @@
-.container {
-    padding: 3rem;
-    margin-top: 4rem;
-    max-height: auto;
+.quoteDataForm {
     border: 1px solid #eee;
+    padding: 3rem;
+    margin-top: 3rem;
 }

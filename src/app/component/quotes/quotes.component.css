@@ -2,3 +2,20 @@
     display: flex;
     justify-content: space-between;
 }
+
+.displayQuote {
+    padding: 1rem 0 1.2rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.quotes {
+    margin-bottom: .7rem;
+}
+
+.author,
+.post,
+.time {
+    font-weight: 250;
+    opacity: .7;
+    font-size: 1rem;
+}
