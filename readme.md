@@ -13,7 +13,7 @@
 <hr>
 
 ## Description.
-This projec is a single paged application (SPA) whareby a user is able to add, delete and rate quotes thus cannot store the quotes for future reference due to inaBility to keep data records. Below is a brief info about the project state
+This projec is a single paged application (SPA) whareby a user is able to add, delete and rate quotes thus cannot store the quotes for future reference due to inaBility to keep data records. Below is a brief info about the project state:
     <li>Author: felix Obiero</li> 
     <li>Date: Jan 7th 2022</li> 
     <li>Quote Generator</li> <br/>
