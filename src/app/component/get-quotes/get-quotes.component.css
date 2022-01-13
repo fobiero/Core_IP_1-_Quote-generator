@@ -1,0 +1,40 @@
+.qt-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+i {
+    line-height: 1rem;
+    width: 40px;
+    font-size: 1.2rem;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.fa-sort-up::after {
+    align-items: center;
+    margin-left: .2rem;
+    content: "+";
+    font-size: 1.2rem;
+}
+
+.fa-sort-down {
+    opacity: .5;
+}
+
+.fa-sort-down::after {
+    align-items: center;
+    margin-left: .2rem;
+    content: "-";
+    font-size: 1.2rem;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.3rem;
+    /* line-height: 1px; */
+    margin-top: -10px;
+    margin-bottom: -10px;
+}

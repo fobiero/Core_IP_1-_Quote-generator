@@ -8,6 +8,7 @@ import { FormComponent } from './component/form/form.component';
 import { QuotesComponent } from './component/quotes/quotes.component';
 import { FormsModule } from '@angular/forms';
 import { CounterComponent } from './component/counter/counter.component';
+import { GetQuotesComponent } from './component/get-quotes/get-quotes.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CounterComponent } from './component/counter/counter.component';
     HeaderComponent,
     FormComponent,
     QuotesComponent,
-    CounterComponent
+    CounterComponent,
+    GetQuotesComponent
   ],
   
   imports: [
