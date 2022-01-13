@@ -1,7 +1,33 @@
+.posted {
+    align-items: center;
+    padding: 1rem .5rem;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 10px 6px -6px #eee;
+    margin: .5rem 0;
+}
+
 .qt-info {
     display: flex;
     justify-content: space-between;
-    padding: 1.2rem;
+    align-items: center;
+}
+
+.thr p {
+    font-size: 1rem;
+    /* margin-top: .2rem; */
+}
+
+.pst-quote p {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+
+.thr,
+.dte,
+.pst {
+    font-weight: 250;
+    opacity: .7;
+    font-size: 1rem;
 }
 
 i {
